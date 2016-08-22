@@ -1,18 +1,26 @@
 Mutable - Can be changed
 Immutable - Can't be changed
 
+Integers
+--------
 >>> a = 1
 >>> a
   1
 >>> a = 2
 >>> a
   2
+  
+Float
+-----
 >>> b = 1.0
 >>> b
   1.0
 >>> b = 2.0
 >>> b
   2.0
+  
+String
+------
 >>> str1 = 'mutable or not'
 >>> str1
   'mutable or not'
@@ -23,12 +31,18 @@ Immutable - Can't be changed
 >>> str1 = 'immutable'
 >>> str1
   'immutable'
+
+List
+----
 >>> list1 = [1,2]
 >>> list1
   [1, 2]
 >>> list1[0] = 3
 >>> list1
   [3, 2]
+  
+Tuple
+-----
 >>> tuple1 = (1,2)
 >>> tuple1
   (1, 2)
@@ -38,6 +52,9 @@ Immutable - Can't be changed
   TypeError: 'tuple' object does not support item assignment
 >>> tuple1
   (1, 2)
+  
+Dictionary
+----------
 >>> dict1 = {'a':1, "b":2}
 >>> dict1
   {'b': 2, 'a': 1}
