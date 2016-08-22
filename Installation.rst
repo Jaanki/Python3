@@ -22,4 +22,4 @@ Once downloaded, verify the installation.
     Type "help", "copyright", "credits" or "license" for more information.
     >>> 
 
-Notice the version "3.5.1" on line 17. 
+Notice the version "3.5.1" in the above output. 
