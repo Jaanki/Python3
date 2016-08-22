@@ -13,10 +13,11 @@ Integers
       int.bit_length() -> int
       
       Number of bits necessary to represent self in binary.
-      >>> bin(37)
-      '0b100101'
-      >>> (37).bit_length()
-      6
+      
+>>> bin(37)
+  '0b100101'
+>>> (37).bit_length()
+  6
 >>> float(a)
   1.0
 >>> str(a)
@@ -49,12 +50,13 @@ String
 >>> string1.capitalize()
   'Hi, this is python3 workshop' - Only the first character got captitalised. Rest all in lower case
 
-
 Concatinate:
+
 >>> string1 + string2
   'Hi, this is string1string2' -- Notice no space
 
 Multiply:
+
 >>> string2 * 2
   'string2string2'
 
